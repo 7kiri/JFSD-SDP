@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Citizen Portal</h1>
+    </header>
+    <main>
+        <h2>Report an Issue</h2>
+        <form id="issueForm">
+            <label for="issueTitle">Issue Title:</label>
+            <input type="text" id="issueTitle" required>
+            
+            <label for="issueDescription">Description:</label>
+            <textarea id="issueDescription" required></textarea>
+            
+            <button type="submit">Submit Issue</button>
+        </form>
+        <div id="feedbackSection">
+            <h3>Your Feedback</h3>
+            <!-- Feedback display area -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Citizen-Politician Interaction</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
